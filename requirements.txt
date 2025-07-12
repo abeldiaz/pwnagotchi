@@ -14,3 +14,5 @@ smbus2==0.3.0
 Pillow==5.4.1
 spidev==3.4
 gast==0.2.2
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
